@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Creation from "./Components/Creation";
+import Creation from "./js/Components/Creation";
+import List from "./js/Components/List";
 
 function App() {
   return (
     <div className="App">
       <Creation />
+      <List />
     </div>
   );
 }
